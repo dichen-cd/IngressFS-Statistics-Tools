@@ -4,7 +4,7 @@ import sys
 import warnings
 warnings.filterwarnings("ignore")
 
-SOURCE_DIR = './SampleFinalStatsInput/'
+SOURCE_DIR = './PostGameRecordings/'
 num = 2 #Number of best AP gainers under level 8 in each faction
 
 files = os.listdir(SOURCE_DIR)
@@ -16,7 +16,7 @@ Out_table.Delta_Level    = Out_table.Post_Level - Out_table.Pre_Level
 Out_table.Delta_AP       = Out_table.Post_AP - Out_table.Pre_AP
 Out_table.Delta_Distance = Out_table.Post_Distance - Out_table.Pre_Distance
 
-Out_table.to_excel('./Sample_Output_by_FSSdotPY.xlsx', index = False)
+Out_table.to_excel('./Final_Spreading_Sheet.xlsx', index = False)
 
 class txtWriter():
     def __init__(self, stdout, filename):

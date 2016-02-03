@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-SOURCE_DIR = './SampleInitialStatsInput/'
+SOURCE_DIR = './PreGameRecordings/'
 
 tables = []
 for table in os.listdir(SOURCE_DIR):
@@ -9,4 +9,4 @@ for table in os.listdir(SOURCE_DIR):
 
 Out_table = pd.concat(tables, ignore_index = True).sort_values('Faction')
 
-Out_table.to_excel('./Sample_Output_by_ISMdotPY.xlsx', index = False)
+Out_table.to_excel('./Merged_PreGameRecordingSheet.xlsx', index = False)
