@@ -1,0 +1,23 @@
+ 
+ENL AP gain: 980430
+RES AP gain: 1533031
+City AP gain: 2513461
+ 
+ENL level gain: 2
+RES level gain: 3
+City level gain: 5
+
+-------------------------------
+
+Best AP gainers are: 
+     AgentName  Delta_AP Faction
+6   caoxiaomin    300546     ENL
+36      shozki    329722     RES
+ 
+Best Start-ups:
+     AgentName  Delta_AP Faction
+8       mzdong    184575     ENL
+7   Respiderly    113225     ENL
+39  littledeer    173215     RES
+30     Anniean     94631     RES
+ 
